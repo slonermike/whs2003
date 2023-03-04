@@ -44,7 +44,8 @@ a {
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  color: #CC0000;
+  background-color: #CC0000;
+  color: white;
 }
 
 .App-link {
