@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One:regular,bold,italic&subset=latin,latin-ext');
+
 .App {
   text-align: center;
 }
@@ -7,21 +10,41 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  font-family: 'Pinyon Script';
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 80px;
+}
+
+.Date-text {
+  font-family: 'Alfa Slab One';
+  color: #CC0000;
+  font-weight: 500;
+}
+
+.Links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 32px;
+  width: calc(min(80vw, 600px));
+  justify-content: space-between;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #CC0000;
 }
 
 .App-link {
