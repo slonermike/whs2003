@@ -52,6 +52,15 @@ a {
   border: 1px solid #CC0000;
 }
 
+@media screen and (max-width: 670px) {
+  .Links {
+    flex-direction: column;
+  }
+  .App-header {
+    font-size: 46px;
+  }
+}
+
 a:hover {
   background-color: #DD0000;
 }
