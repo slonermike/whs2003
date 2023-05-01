@@ -37,6 +37,16 @@
   font-size: 32px;
   width: calc(min(80vw, 600px));
   justify-content: space-between;
+  white-space: nowrap;
+}
+
+.Sponsor-Links {
+  margin-top: 12px;
+}
+
+.Sponsor-Us {
+  width: 100%;
+  justify-content: center;
 }
 
 a {
@@ -58,6 +68,10 @@ a {
   }
   .App-header {
     font-size: 46px;
+  }
+  .Sponsor-Us {
+    width: auto;
+    justify-content: flex-start;
   }
 }
 
